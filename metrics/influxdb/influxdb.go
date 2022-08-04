@@ -7,8 +7,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/metrics"
-	//"github.com/influxdata/influxdb/client"
-	"github.com/influxdata/influxdb1-client/v2"
+	"github.com/influxdata/influxdb/client"
+	//"github.com/influxdata/influxdb1-client/v2"
 )
 
 type reporter struct {
